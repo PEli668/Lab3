@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Blog Form</title>
+        <style>
+            select {
+                font-family: Arial, Helvetica, sans-serif;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>Blog Post</h2>
+        <textarea name="Title Name" rows="1" cols="30" placeholder="Title of Blog"></textarea>
+        <textarea name="authorName" rows="1" cols="15" placeholder="Author Name"></textarea>
+        <br><br>
+        <textarea name="Content" rows="4" cols="50" placeholder="Display your day here..."></textarea>
+<br>
+        <select name="Category" id="Category-Select">
+            <option value="">--What type of content are you posting?--</option>
+            <option value="Sports">Sport</option>
+            <option value="Dance">Dance</option>
+            <option value="Technology">Technology</option>
+        </select>
+        <br><br>
+        <button type="button" onclick="alert('Your blog has been posted.')">Submit</button>
+        
+    </body>
+</html>

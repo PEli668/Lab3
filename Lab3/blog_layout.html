@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="UTF=8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Layout</title>
+<style>
+    section {
+        padding: 5px; 
+    }
+    .footer { 
+    position: absolute; 
+    bottom: 0; 
+    left: 0; 
+    z-index: 10;
+    background-color: #ddd;
+    width: 100%;
+    text-align: center;
+
+}
+    ul {
+        list-style-type: none;
+        padding: 0;
+        width: 100%;
+        margin: 20px auto;
+        justify-content: left;
+        text-align: left;
+    }
+
+    li {
+        float: center;
+        overflow:visible;
+        color: #3f3244 ;
+    }
+
+    li a {
+        display: block;
+        padding: 10px;
+        font-size: 20px;
+        }
+    li a:hover {
+        background-color: tomato;
+        color: #3f3244;
+    }
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    background: #60495a;
+
+
+}
+.flex-item {
+
+    border-right-style: groove;
+    border-left-style: groove;
+    align-items: right;
+    background: color white;
+    padding: 20px;
+    font-size: 20px;
+    text-align:justify;
+    Flex-grow: 1;
+}
+
+</style>
+<body>
+    <h1 style="text-align: center;">TEKKEN 8 Blog</h1>
+    <h2 style="text-align: center;">TEKKEN 8, the brand-new entry in the legendary TEKKEN franchise, brings the fight to the new generation!</h2>
+    <br>
+
+<ul class="center">
+    <nav>
+    <div class ="flex-container">
+        <li><a href="blog_layout.html">Home</a></li>
+        <li><a href="table_of_contents.html">Table of Content</a></li>
+        <li><a href="multimedia_blog_post.html">Trending</a></li>
+        <li><a href="blog_post_form.html">Post!</a></li>
+    </div>
+    </nav>
+</ul>
+
+<main>
+    <section>
+        <article>
+        <h2>Post Title here</h2>
+        <h4>Author Name | Date Published: Sept 18th 2024</h4>
+        <p>Blah Blah blah</p>
+    </article>
+    </section>
+
+    <section> 
+        <article>
+            <h2>NEW TEKKEN RELEASED</h2>
+
+            <iframe width="140" height="105" src="https://www.youtube.com/embed/_MM4clV2qjE?si=OajFvGIMQm_oMuoy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        </article>
+</section>
+
+
+</div>
+
+</main>
+<div class="footer">
+    <p>Author: Elijah Palmer</p>
+    <p><a href="mailto:hege@example.com">elijahp668@gmail.com</a></p>
+</div>
+
+
+</body>
+</html>
